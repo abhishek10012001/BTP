@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnSpeak"
+            android:layout_width="108dp"
+            android:layout_height="77dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginEnd="152dp"
+            android:gravity="center"
+            android:onClick="getSpeechInput"
+            android:src="@drawable/btnspeak"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/encodedText"
+            android:layout_width="111dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="120dp"
+            android:alpha="5"
+            android:text="CAT"
+            android:textColor="#151212"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/resText"
+            android:layout_width="272dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="68dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnSpeak"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txvResult"
+            android:layout_width="221dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="48dp"
+            android:layout_marginEnd="96dp"
+            android:alpha="0.5"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="69dp"
+            android:layout_height="62dp"
+
+            android:layout_marginEnd="96dp"
+            android:layout_marginTop="124dp"
+            android:onClick="doSomething"
+            android:padding="1dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/speaker1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="34dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/encodedText"
+            app:srcCompat="@drawable/catpic" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

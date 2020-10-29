@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1P1Test">
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="74dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:onClick="doSomething"
+        app:srcCompat="@drawable/speaker1" />
+
+    <TextView
+        android:id="@+id/encodedText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="71dp"
+        android:text="City"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="70dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:onClick="doSomething"
+        app:srcCompat="@drawable/speaker1" />
+
+    <ImageView
+        android:id="@+id/btnSpeak1"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="53dp"
+        android:onClick="getSpeechInput"
+        app:srcCompat="@drawable/btnspeak" />
+
+    <TextView
+        android:id="@+id/txvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/encodedText4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/resText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txvResult"
+        android:layout_marginEnd="63dp"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="74dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:onClick="doSomething"
+        app:srcCompat="@drawable/speaker1" />
+
+    <ImageView
+        android:id="@+id/btnSpeak2"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/btnSpeak1"
+        android:layout_below="@+id/btnSpeak1"
+        android:onClick="getSpeechInput"
+        app:srcCompat="@drawable/btnspeak" />
+
+    <TextView
+        android:id="@+id/encodedText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/encodedText1"
+        android:layout_alignTop="@+id/imageButton2"
+        android:text="House"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/encodedText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/encodedText1"
+        android:layout_centerVertical="true"
+        android:text="Snake"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="70dp"
+        android:layout_height="52dp"
+        android:layout_centerInParent="true"
+        android:onClick="doSomething"
+        app:srcCompat="@drawable/speaker1" />
+
+    <ImageView
+        android:id="@+id/btnSpeak3"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/btnSpeak1"
+        android:layout_centerVertical="true"
+        android:onClick="getSpeechInput"
+        app:srcCompat="@drawable/btnspeak" />
+
+    <TextView
+        android:id="@+id/encodedText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignStart="@+id/encodedText1"
+        android:text="Glass"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageButton4"
+        android:layout_width="70dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:onClick="doSomething"
+        app:srcCompat="@drawable/speaker1" />
+
+    <ImageView
+        android:id="@+id/btnSpeak4"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnSpeak1"
+        android:layout_marginBottom="133dp"
+        android:onClick="getSpeechInput"
+        app:srcCompat="@drawable/btnspeak" />
+
+    <TextView
+        android:id="@+id/encodedText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/encodedText2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="59dp"
+        android:text="Palace"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageButton5"
+        android:layout_width="70dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/encodedText5"
+        android:layout_centerHorizontal="true"
+        android:onClick="doSomething"
+        app:srcCompat="@drawable/speaker1" />
+
+    <ImageView
+        android:id="@+id/btnSpeak5"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/txvResult"
+        android:layout_alignStart="@+id/btnSpeak1"
+        android:onClick="getSpeechInput"
+        app:srcCompat="@drawable/btnspeak" />
+
+    <TextView
+        android:id="@+id/currentScoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSpeak1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-53dp"
+        android:layout_marginLeft="40dp"
+        android:text="Current Score = 0/0"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+</RelativeLayout>

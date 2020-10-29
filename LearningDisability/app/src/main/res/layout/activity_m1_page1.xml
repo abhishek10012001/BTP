@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1Page1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="50dip">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="List of Phonemes"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="goToPhoneme1"
+                android:text="/s/"
+                android:textSize="25sp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="100"
+            android:onClick="go"
+            android:text="/a/"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="100"
+            android:onClick="go"
+            android:text="/t/"
+            android:textSize="25sp" />
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/i/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/p/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/n/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/k/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/e/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/h/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/r/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/m/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/d/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/g/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/o/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/u/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/i/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ui/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/f/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/b/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/j/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/y/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ai/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/w/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/oa/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/igh/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ee/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/or/aw/"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/z/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ng/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ngk/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/v/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/oo/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ks/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/gz/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ch/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/sh/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/th/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/kw/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ou/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/oi/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/yoo/"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/er/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/ar/"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/air/"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/eer/"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="300">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_weight="100"
+                android:onClick="go"
+                android:text="/zh/"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</ScrollView>
